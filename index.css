@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: repeat(12, 1fr) / repeat(5, 1fr);
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
   grid-gap: 5px;
 }
 
@@ -22,4 +22,8 @@ body {
 .bigItem {
   grid-column: 2 / 4;
   grid-row: 2 / 4;
+}
+
+.header {
+  brid-column: 1 / 6;
 }
